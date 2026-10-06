@@ -1,0 +1,44 @@
+Rivora — Proprietary Software License
+
+Copyright (c) 2026 TheCodeStorm. All rights reserved.
+
+Rivora (the "Software") is closed-source, proprietary software. The source
+code is not published and is not licensed to you.
+
+1. Permitted use
+   You may download the official Rivora APK files published in the Releases
+   section of https://github.com/OmkarPatil-Dev/rivora and install and use
+   them on devices you own or control, for personal, non-commercial use.
+
+2. Restrictions
+   You may NOT, without prior written permission from TheCodeStorm:
+   a) redistribute, sell, rent or sublicense the Software or modified copies;
+   b) decompile, reverse engineer, disassemble or attempt to derive the
+      source code, except where applicable law expressly permits it;
+   c) modify, repackage, re-sign or publish the Software under another name;
+   d) remove or alter any copyright, trademark or attribution notices;
+   e) use the Rivora name or logo to promote another product.
+
+3. Content and extensions
+   The Software contains no media content. Third-party extensions, catalogues
+   and streams are not part of the Software, are not provided or endorsed by
+   TheCodeStorm, and are used at your own responsibility. You are solely
+   responsible for ensuring you have the right to access any content you
+   play.
+
+4. Repository contents
+   The README, screenshots, logo and documentation in this repository are
+   provided for information about the Software and are covered by the same
+   copyright. Third-party names, logos and artwork visible in screenshots
+   belong to their respective owners.
+
+5. No warranty
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+6. Termination
+   This license ends automatically if you break any of its terms. On
+   termination you must stop using and delete all copies of the Software.

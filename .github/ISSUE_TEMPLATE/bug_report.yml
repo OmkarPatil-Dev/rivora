@@ -1,0 +1,67 @@
+name: 🐞 Bug report
+description: Something in Rivora is broken or not working as expected.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Rivora! Please **do not** post passwords, tokens or private provider URLs.
+  - type: input
+    id: version
+    attributes:
+      label: Rivora version
+      description: Settings → Updates shows the version.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and Android version
+      placeholder: "Redmi Note 10 Pro, Android 13"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where does it happen?
+      options:
+        - Home / browsing
+        - Search
+        - Title details / episodes
+        - Player / playback
+        - Downloads
+        - Extensions
+        - Settings / updates
+        - Android TV layout
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: extension
+    attributes:
+      label: Extension name (if relevant)
+      placeholder: "Name only — no private URLs"
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect, and what happened instead?
+      description: Include the exact error text if one is shown.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or screen recording
+      description: Drag and drop images or videos here.

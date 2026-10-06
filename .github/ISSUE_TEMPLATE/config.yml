@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Rivora support chat (Telegram)
+    url: https://t.me/RivoraAppChatroom
+    about: Questions, help with extensions and general chat.
+  - name: 📢 Rivora announcements (Telegram)
+    url: https://t.me/RivoraApp
+    about: News and release announcements.

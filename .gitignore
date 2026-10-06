@@ -1,0 +1,9 @@
+# APKs belong in GitHub Releases, not in the repository
+*.apk
+*.aab
+*.idsig
+*.jks
+*.keystore
+.DS_Store
+Thumbs.db
+desktop.ini

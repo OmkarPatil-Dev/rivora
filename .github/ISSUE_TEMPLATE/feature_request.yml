@@ -1,0 +1,17 @@
+name: ✨ Feature request
+description: Suggest an idea or improvement for Rivora.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like?
+      description: Describe the feature and the problem it solves.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Extra details
+      description: Mock-ups, examples from other apps, phone or TV, etc.
