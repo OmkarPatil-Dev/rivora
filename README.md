@@ -34,7 +34,7 @@
 
 ## ✨ About
 
-**Rivora** is a cinematic media app for Android phones and Android TV. It gives you a big-screen streaming-style experience — a moving spotlight, catalogue rows, rich title pages, a gesture-driven player and offline downloads — for **the catalogues and providers you choose**.
+**Rivora** is a cinematic media app for Android devices and Android TV. It gives you a big-screen streaming-style experience — a moving spotlight, catalogue rows, rich title pages, a gesture-driven player and offline downloads — for **the catalogues and providers you choose**.
 
 Rivora ships with **no built-in content**. You add your own extensions (Rivora manifests or compatible Stremio HTTPS add-ons) and Rivora turns them into a beautiful, fast, remote-friendly library.
 
