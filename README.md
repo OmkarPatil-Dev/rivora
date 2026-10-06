@@ -213,7 +213,7 @@ When reporting a problem, please include your **app version, device model, Andro
 
 <p align="center">
   <img src="assets/logo.png" width="72" alt="Rivora logo" />
-</p>
+</p> 
 
 <p align="center">
   <b>Rivora</b> · Crafted with ♥ by <b>TheCodeStorm</b><br/>
