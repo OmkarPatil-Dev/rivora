@@ -26,7 +26,7 @@
   <a href="#-screenshots">Screenshots</a> •
   <a href="#-features">Features</a> •
   <a href="#-install">Install</a> •
-  <a href="#-legal--compliance">Legal & Compliance</a> •
+  <a href="#legal">Legal & Compliance</a> •
   <a href="#-community--support">Support</a>
 </p>
 
@@ -143,6 +143,7 @@
 > [!TIP]
 > To stay updated, open **Settings - Updates - Check now**. The app securely checks this exact repository for new signed releases and opens the page for you to review.
 
+<a id="legal"></a>
 ## ⚖️ Legal & Compliance
 
 **Rivora is strictly a neutral media player and metadata client.** 
