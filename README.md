@@ -45,20 +45,20 @@
 
 <table>
   <tr>
-    <td align="center" width="25%"><img src="assets/screenshots/home.png" alt="Home grid layout" /><br/><sub><b>Grid layout</b></sub></td>
-    <td align="center" width="25%"><img src="assets/screenshots/browse.png" alt="Metadata rows and History" /><br/><sub><b>History & Categories</b></sub></td>
-    <td align="center" width="25%"><img src="assets/screenshots/preview.png" alt="Quick file preview sheet" /><br/><sub><b>Quick preview</b></sub></td>
-    <td align="center" width="25%"><img src="assets/screenshots/details.png" alt="File details page" /><br/><sub><b>File details</b></sub></td>
+    <td align="center" width="25%"><img src="assets/screenshots/home.png" alt="Empty home tab showing no bundled content" /><br/><sub><b>Empty State UI</b></sub></td>
+    <td align="center" width="25%"><img src="assets/screenshots/browse.png" alt="Built-in help menu" /><br/><sub><b>Help & Support</b></sub></td>
+    <td align="center" width="25%"><img src="assets/screenshots/details.png" alt="Extensions menu for adding providers" /><br/><sub><b>Extension Manager</b></sub></td>
+    <td align="center" width="25%"><img src="assets/screenshots/downloads.png" alt="Offline downloads tab" /><br/><sub><b>Local Cache</b></sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="assets/screenshots/search.png" alt="Endpoint Search" /><br/><sub><b>Endpoint Search</b></sub></td>
-    <td align="center"><img src="assets/screenshots/downloads.png" alt="Offline media cache" /><br/><sub><b>Local Cache</b></sub></td>
-    <td align="center"><img src="assets/screenshots/settings.png" alt="Player gesture settings" /><br/><sub><b>Player settings</b></sub></td>
-    <td align="center"><img src="assets/screenshots/updates.png" alt="Scheduled update checks" /><br/><sub><b>Built-in updates</b></sub></td>
+    <td align="center"><img src="assets/screenshots/search.png" alt="Empty search tab" /><br/><sub><b>No Built-In Media</b></sub></td>
+    <td align="center"><img src="assets/screenshots/preview.png" alt="Empty list tab" /><br/><sub><b>Awaiting Providers</b></sub></td>
+    <td align="center"><img src="assets/screenshots/settings.png" alt="App and player settings" /><br/><sub><b>Player Settings</b></sub></td>
+    <td align="center"><img src="assets/screenshots/updates.png" alt="Update checker menu" /><br/><sub><b>Built-in Updates</b></sub></td>
   </tr>
 </table>
 
-<p align="center"><sub><b>Disclaimer:</b> Screenshots are for demonstration purposes only. Any artwork, titles, or logos displayed above are placeholder assets or pulled from open-source/public-domain mockup APIs (e.g., Big Buck Bunny, Sintel). Rivora does not host or distribute the media shown.</sub></p>
+<p align="center"><sub><b>Disclaimer:</b> Screenshots demonstrate the application's native empty-state interface. Rivora is an independent utility software and strictly ships with no pre-bundled media, content, or third-party extensions.</sub></p>
 
 ## 🚀 Features
 
