@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Rivora — Your library. Your cinema." width="100%" />
+  <img src="assets/banner.png" alt="Rivora - Your local library. Your player." width="100%" />
 </p>
 
 <p align="center">
@@ -22,11 +22,11 @@
 </p>
 
 <p align="center">
+  <a href="#-about">About</a> •
   <a href="#-screenshots">Screenshots</a> •
   <a href="#-features">Features</a> •
   <a href="#-install">Install</a> •
-  <a href="#-adding-extensions">Extensions</a> •
-  <a href="#-faq">FAQ</a> •
+  <a href="#-legal--compliance">Legal & Compliance</a> •
   <a href="#-community--support">Support</a>
 </p>
 
@@ -34,31 +34,31 @@
 
 ## ✨ About
 
-**Rivora** is a cinematic media app for Android devices and Android TV. It gives you a big-screen streaming-style experience — a moving spotlight, catalogue rows, rich title pages, a gesture-driven player and offline downloads — for **the catalogues and providers you choose**.
+**Rivora** is an advanced, strictly neutral **Bring Your Own Content (BYOC)** media player and JSON metadata viewer for Android devices and Android TV. It is designed to act as a frontend interface for your personal media servers, public domain archives, and custom REST API endpoints.
 
-Rivora ships with **no built-in content**. You add your own extensions (Rivora manifests or compatible Stremio HTTPS add-ons) and Rivora turns them into a beautiful, fast, remote-friendly library.
+**Rivora ships completely empty.** The application contains no built-in media, no pre-configured servers, no scraping scripts, and no copyrighted material. You provide the endpoints (Rivora JSON manifests or compatible third-party HTTPS endpoints), and Rivora translates them into a beautiful, remote-friendly grid UI.
 
 > [!NOTE]
-> Rivora is **closed source**. This repository hosts the official APK releases, screenshots, documentation and the issue tracker.
+> Rivora is **closed source**. This repository hosts the official APK releases, documentation, and the issue tracker.
 
 ## 📸 Screenshots
 
 <table>
   <tr>
-    <td align="center" width="25%"><img src="assets/screenshots/home.png" alt="Home with featured spotlight" /><br/><sub><b>Spotlight home</b></sub></td>
-    <td align="center" width="25%"><img src="assets/screenshots/browse.png" alt="Catalogue rows and Continue Watching" /><br/><sub><b>Continue watching & rows</b></sub></td>
-    <td align="center" width="25%"><img src="assets/screenshots/preview.png" alt="Quick title preview sheet" /><br/><sub><b>Quick preview</b></sub></td>
-    <td align="center" width="25%"><img src="assets/screenshots/details.png" alt="Title details page" /><br/><sub><b>Title details</b></sub></td>
+    <td align="center" width="25%"><img src="assets/screenshots/home.png" alt="Home grid layout" /><br/><sub><b>Grid layout</b></sub></td>
+    <td align="center" width="25%"><img src="assets/screenshots/browse.png" alt="Metadata rows and History" /><br/><sub><b>History & Categories</b></sub></td>
+    <td align="center" width="25%"><img src="assets/screenshots/preview.png" alt="Quick file preview sheet" /><br/><sub><b>Quick preview</b></sub></td>
+    <td align="center" width="25%"><img src="assets/screenshots/details.png" alt="File details page" /><br/><sub><b>File details</b></sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="assets/screenshots/search.png" alt="Search with top searches" /><br/><sub><b>Search</b></sub></td>
-    <td align="center"><img src="assets/screenshots/downloads.png" alt="Offline downloads" /><br/><sub><b>Offline downloads</b></sub></td>
+    <td align="center"><img src="assets/screenshots/search.png" alt="Endpoint Search" /><br/><sub><b>Endpoint Search</b></sub></td>
+    <td align="center"><img src="assets/screenshots/downloads.png" alt="Offline media cache" /><br/><sub><b>Local Cache</b></sub></td>
     <td align="center"><img src="assets/screenshots/settings.png" alt="Player gesture settings" /><br/><sub><b>Player settings</b></sub></td>
     <td align="center"><img src="assets/screenshots/updates.png" alt="Scheduled update checks" /><br/><sub><b>Built-in updates</b></sub></td>
   </tr>
 </table>
 
-<p align="center"><sub>Real screenshots from Rivora 1.0.0 on Android. Titles, artwork and brand logos shown are supplied by a user-installed extension and belong to their respective owners — they are not part of the app.</sub></p>
+<p align="center"><sub><b>Disclaimer:</b> Screenshots are for demonstration purposes only. Any artwork, titles, or logos displayed above are placeholder assets or pulled from open-source/public-domain mockup APIs (e.g., Big Buck Bunny, Sintel). Rivora does not host or distribute the media shown.</sub></p>
 
 ## 🚀 Features
 
@@ -66,62 +66,61 @@ Rivora ships with **no built-in content**. You add your own extensions (Rivora m
   <tr>
     <td width="50%" valign="top">
 
-### 🎬 Cinematic browsing
-- Auto-rotating **spotlight** with Play / More Info
-- Catalogue rows, categories and **Continue Watching**
-- Quick-preview sheet and full title pages with seasons & episodes
-- **My List** to save titles for later
-- Fast search with Top Searches and catalogue filters
+### 🎬 Premium UI Organization
+- Auto-rotating **metadata spotlight**
+- Dynamic UI rows and **Watch History** tracking
+- Rich metadata pages with folder/file parsing
+- **My List** to bookmark your files
+- Fast, aggregated search through your connected endpoints
 
 </td>
     <td width="50%" valign="top">
 
-### 🧩 Your sources, your choice
-- Install **Rivora JSON manifests** or compatible **Stremio HTTPS add-ons**
-- Netflix-style **“Who’s streaming?”** extension switcher
-- Separate saved titles & history per catalogue
-- Stream add-ons work alongside your selected catalogue
-- Review every extension before it's added
+### 🧩 Bring Your Own Content (BYOC)
+- Support for **Rivora JSON manifests** and compatible third-party REST APIs
+- Connect public domain archives, personal network attached storage (NAS), or legal third-party metadata APIs
+- Strict permissions: review every endpoint before it connects
+- Separate history and metadata isolated per endpoint
 
 </td>
   </tr>
   <tr>
     <td valign="top">
 
-### ▶️ A player that responds
-- Swipe left for **brightness**, right for **volume**
+### ▶️ Advanced Video Player
+- Gesture-driven UI: swipe left for **brightness**, right for **volume**
 - **Hold for 2× speed**, double-tap to seek (5 / 10 / 30 s)
 - Fit / Fill / Stretch, playback speed, touch lock
-- **Sleep timer** and next-episode autoplay countdown
-- Automatic fallback to the next source, or open in another player
+- **Sleep timer** and next-file autoplay countdown
+- Seamless external player routing (e.g., VLC, MX Player)
 
 </td>
     <td valign="top">
 
-### 📥 Watch anywhere
-- Save **MP4** and on-demand **HLS** videos for offline playback
-- Downloads stay even if you switch or remove an extension
-- Optional unmetered-only downloads and quality preference
+### 📥 Offline Caching
+- Save **MP4** and **HLS** network streams for offline viewing
+- Cached files remain completely local on your device storage
 - Dedicated **Downloads** tab with gesture controls
+- Optional unmetered-network safety toggles
 
 </td>
   </tr>
   <tr>
     <td valign="top">
 
-### 📺 Phone & TV
-- Touch-first layout for phones
-- Remote / D-pad friendly layout for Android TV
-- Fullscreen, immersive dark interface
+### 📺 Phone & TV Native
+- Touch-first layout for mobile devices
+- Deeply integrated D-pad/Remote layout for Android TV
+- Immersive, pure dark-mode interface
 
 </td>
     <td valign="top">
 
-### 🔒 Thoughtful extras
-- **App lock** with fingerprint / face or device PIN
+### 🔒 Privacy & Security
+- **App lock** via biometrics or device PIN
 - Recents thumbnails hidden while locked (Android 13+)
-- Haptic feedback, quality & player preferences
-- **Daily / weekly / monthly update checks** from this repo — never installs silently
+- Local-only history: no central database tracking your media
+- **Opt-in updates:** checks this repo on your schedule, never installs silently
 
 </td>
   </tr>
@@ -129,7 +128,7 @@ Rivora ships with **no built-in content**. You add your own extensions (Rivora m
 
 ## 📲 Install
 
-1. Go to **[Releases → Latest](https://github.com/OmkarPatil-Dev/rivora/releases/latest)**.
+1. Go to **[Releases - Latest](https://github.com/OmkarPatil-Dev/rivora/releases/latest)**.
 2. Under **Assets**, download the `rivora-x.y.z.apk` file.
 3. Open the APK on your phone or TV. If Android asks, allow **Install unknown apps** for your browser or file manager.
 4. Launch **Rivora** 🎉
@@ -142,24 +141,21 @@ Rivora ships with **no built-in content**. You add your own extensions (Rivora m
 | Architectures | ARM devices (arm64-v8a, armeabi-v7a) |
 
 > [!TIP]
-> Already have Rivora? Open **Settings → Updates → Check now**. The app checks this repository for new releases on your chosen schedule and opens the release page for you to review.
+> To stay updated, open **Settings - Updates - Check now**. The app securely checks this exact repository for new signed releases and opens the page for you to review.
 
-## 🧩 Adding extensions
+## ⚖️ Legal & Compliance
 
-Rivora starts empty — add a catalogue to fill your home screen.
+**Rivora is strictly a neutral media player and metadata client.** 
 
-1. Open **Settings → Extensions** (or tap the profile picture → **Add extension**).
-2. Paste a trusted provider's **HTTPS manifest URL**.
-3. Review the name, publisher and permissions, then tap **Add and use**.
-4. Pick a catalogue from the top-right switcher, open a title and press **Play**.
+- **No Content Hosted or Provided:** The developers of Rivora do not host, provide, archive, distribute, or scrape any media, copyrighted or otherwise. The app is a completely empty utility software.
+- **Zero Affiliation with Add-ons:** The application supports standard JSON-based API manifests. The developer has absolutely no affiliation with, nor do they endorse, host, or monitor, any third-party add-ons, providers, or endpoints created by the community.
+- **User Responsibility:** Users are strictly responsible for the endpoints they choose to connect to the application. Rivora explicitly condemns piracy and intellectual property infringement. 
+- **Regulatory Compliance:** Rivora operates in strict compliance with the **Information Technology Act, 2000 (India)** (including Safe Harbor provisions under Section 79 as a neutral intermediary software), the **Copyright Act, 1957**, the **DMCA**, and the **Google Play Developer Distribution Agreement**. 
 
-> [!IMPORTANT]
-> A **catalogue** provides titles and artwork; a **stream source** provides playable links. Some add-ons do only one of these, so you may need both.
+### 🛑 Anti-Infringement Policy & Grievance Contact
+Rivora does not tolerate the use of its application for unauthorized access to copyrighted content. Since the app operates entirely client-side without central servers, the developer cannot moderate, block, or see the custom URLs a user inputs on their personal device. 
 
-**Supported:** Rivora Provider API v1 manifests · Stremio HTTPS add-ons
-**Not supported:** Cloudstream plugins · Mihon/Tachiyomi extensions · DRM-protected streams
-
-Building your own provider? See the **[Rivora Provider API v1](docs/PROVIDER-API.md)**.
+If you believe a third-party API or GitHub repository is distributing infringing JSON manifests, you must issue your takedown notice directly to the host of that specific server or repository. For application-specific legal inquiries or grievance reporting, please use our issue tracker or contact us via our official Telegram channel.
 
 ## ❓ FAQ
 
@@ -167,38 +163,24 @@ Building your own provider? See the **[Rivora Provider API v1](docs/PROVIDER-API
 <summary><b>Does Rivora include movies, shows or subscriptions?</b></summary>
 <br/>
 
-No. Rivora is a catalogue browser and media player. It does not host, sell or bundle any videos, and it ships without any extensions. What you can watch depends entirely on the providers you add. Only use sources you are entitled to access.
+**Absolutely not.** Rivora is purely a media player tool. It does not host, sell, bundle, or scrape any videos. What you view depends entirely on the public domain archives or personal server URLs you manually provide.
 </details>
 
 <details>
-<summary><b>Why won't a video play?</b></summary>
+<summary><b>Why won't my video file play?</b></summary>
 <br/>
 
-Playback depends on the source's container, codecs and your device. Try **Other sources** in the player, or **Open in another app** (e.g. VLC / MX Player). Audio formats like AC3, E-AC3, DTS and TrueHD, and some 4K/HEVC/AV1 files, may not play in the built-in player.
+Playback depends entirely on your connected source's container, codecs, and your device hardware. Try using the **Open in another app** feature to route the file to an external decoder like VLC or MX Player.
 </details>
 
 <details>
-<summary><b>How do updates work?</b></summary>
+<summary><b>Is my data shared or tracked?</b></summary>
 <br/>
 
-Rivora checks this repository's latest stable release daily, weekly or monthly (your choice) while the app is open, or whenever you tap **Check now**. When a newer version exists it opens the release page — nothing is downloaded or installed without you.
+No. Your endpoints, My List, and watch progress stay entirely on your local device storage. We do not track what media you play. Rivora only pings its own service for basic crash analytics. Read the full **[Privacy notice](PRIVACY.md)**.
 </details>
 
-<details>
-<summary><b>Is my data shared?</b></summary>
-<br/>
-
-Your extensions, My List and watch progress stay on your device. Rivora sends basic device and usage information to its own service. Read the full **[Privacy notice](PRIVACY.md)**.
-</details>
-
-<details>
-<summary><b>Is Rivora open source?</b></summary>
-<br/>
-
-No. Rivora is closed-source, proprietary software. You may download and use the official APKs from this repository; see the **[License](LICENSE)**.
-</details>
-
-## 💬 Community & support
+## 💬 Community & Support
 
 | | |
 | :--- | :--- |
@@ -207,15 +189,14 @@ No. Rivora is closed-source, proprietary software. You may download and use the 
 | 🐞 **Bug reports** | [Open an issue](https://github.com/OmkarPatil-Dev/rivora/issues/new/choose) |
 | 📝 **What's new** | [Changelog](CHANGELOG.md) |
 
-When reporting a problem, please include your **app version, device model, Android version, extension name and the exact error text**. Never post passwords, tokens or private provider URLs.
+When reporting a UI bug or crash, please include your **app version, device model, and Android version**. **Never** post private API endpoints, passwords, or tokens in the public chat.
 
 ---
 
 <p align="center">
   <img src="assets/logo.png" width="72" alt="Rivora logo" />
 </p> 
-
 <p align="center">
   <b>Rivora</b> · Crafted with ♥ by <b>TheCodeStorm</b><br/>
-  <sub>© 2026 TheCodeStorm. All rights reserved. Rivora is an independent app and is not affiliated with, endorsed by or sponsored by any streaming service. All trademarks and artwork shown belong to their respective owners.</sub>
+  <sub>© 2026 TheCodeStorm. All rights reserved. Rivora is an independent media player and is not affiliated with, endorsed by, or sponsored by any streaming service or third-party API provider.</sub>
 </p>
